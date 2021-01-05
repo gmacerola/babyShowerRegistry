@@ -4,6 +4,58 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Katrina and Gianpaolo's Baby Shower Registry</title>
+    <link href="index.css" rel="stylesheet" type="text/css" />
+    <link
+      rel="stylesheet"
+      media="screen"
+      href="http://fontlibrary.org/face/alex-brush"
+      type="text/css"
+    />
   </head>
-  <body></body>
+  <body>
+    <header>
+      <div class="header-container">
+        <h2>Katrina & Gianpaolo are having a</h2>
+        <h1>Boy</h1>
+      </div>
+    </header>
+    <main>
+      <h2>Let's Celebrate!</h2>
+      <div class="registryForm">
+        <form action="https://formspree.io/f/mrgorbpv" method="POST">
+          <div class="row">
+            <div class="col-25">
+              <label for="name">Name:</label>
+            </div>
+            <div class="col-75">
+              <input id="name" type="text" name="name" required />
+            </div>
+          </div>
+
+          <div class="row">
+            <div class="col-25">
+              <label for="email">Your Email:</label>
+            </div>
+            <div class="col-75">
+              <input id="email" type="text" name="replyto" required />
+            </div>
+          </div>
+
+          <div class="row">
+            <div class="col-25">
+              <label for="guestCount"
+                >Number of Guests (including yourself)</label
+              >
+            </div>
+            <div class="col-75">
+              <input id="guestCount" type="text" name="numberOfGuests" />
+            </div>
+          </div>
+          <div class="row">
+            <input type="submit" />
+          </div>
+        </form>
+      </div>
+    </main>
+  </body>
 </html>
